@@ -1,0 +1,60 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #F8F9FA; /* Light background */
+}
+
+.card {
+    width: 90%;
+    max-width: 350px;
+    background: white;
+    padding: 350px 40px 40px 40px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #222;
+}
+
+.subtitle {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.button {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+.create-account {
+    background: #6A0DAD;  /* Purple */
+    color: white;
+    margin-bottom: 10px;
+}
+
+.create-account:hover {
+    background: #570b8d;
+}
+
+.login {
+    background: #E6D3F3; /* Light purple */
+    color: #6A0DAD;
+}
+
+.login:hover {
+    background: #d2b8e3;
+}
