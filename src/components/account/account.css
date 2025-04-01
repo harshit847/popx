@@ -1,64 +1,52 @@
-.profile-wrapper {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background-color: #f0f2f5;
-}
-
-.profile-card {
-    background: #fff;
-    padding: 10px 30px 30px 30px;
+/* Stylish Account Page */
+.account-page {
+    max-width: 700px;
+    margin: 40px auto;
+    padding: 25px;
+    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
     border-radius: 12px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    width: 375px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
     text-align: center;
-    height: 592px;
-}
-
-.profile-icon {
-    font-size: 70px;
-    color: #4a90e2;
-    margin-bottom: 15px;
-    position: relative;
-}
-.go{
-    display:flex;
-    align-items:center;
-    justify-content:space-evenly;
-}
-.profile-title {
-    font-size: 22px;
-    font-weight: bold;
-    margin-bottom: 20px;
-    text-align: left;
-    border-bottom: #e0dbdb 1px solid;
-    padding: 10px;
-}
-
-
-
-.profile-info {
-    text-align: left;
-}
-
-.profile-info p {
-    font-size: 14px;
-    margin: 5px 0;
-    font-weight: 500;
+    animation: fadeIn 0.8s ease-in-out;
+  }
+  
+  /* Heading */
+  .account-page h2 {
+    font-size: 26px;
+    font-weight: 600;
     color: #333;
-}
-
-.profile-bio {
-    font-size: 14px;
-    color: #666;
-    margin-top: 10px;
-    border-bottom: #e0dbdb 1px solid;
-    padding-bottom: 10px;
-}
-
-.profile-error {
-    font-size: 14px;
-    color: red;
-    font-weight: bold;
-}
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    background: linear-gradient(45deg, #6a11cb, #2575fc);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  /* Task Container */
+  .task-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  /* Animation */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .account-page {
+      width: 90%;
+      padding: 20px;
+    }
+  }
+  

@@ -17,7 +17,7 @@ const Register = () => {
     return (
         <div className="signup-wrapper">
             <div className="signup-box">
-                <h1 className="signup-title">Create your <br/> PopX account</h1>
+                <h1 className="signup-title">Create your <br/> To-Do-List account</h1>
 
                 <div className="signup-group">
                     <label className="signup-label">Full Name*</label>

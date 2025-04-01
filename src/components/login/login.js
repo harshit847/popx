@@ -16,7 +16,7 @@ const Login = () => {
     return (
         <div className="login-wrapper">
             <div className="login-box">
-                <h2 className="login-heading">Signin to your<br /> PopX account</h2>
+                <h2 className="login-heading">Signin to your<br /> To-Do-App account</h2>
                 <p className="login-text">Lorem ipsum dolor sit amet,<br/> consectetur adipiscing elit.</p>
 
                 <div className="login-group">
